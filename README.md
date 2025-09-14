@@ -36,24 +36,6 @@
 
 ---
 
-## 🏗 Архітектура
-
-app/
-├── main.py # точка входу FastAPI
-├── db.py # підключення до БД
-├── models/ # Pydantic + SQLAlchemy моделі
-├── routers/ # маршрути API
-├── services/ # бізнес-логіка, парсери, WebSockets
-├── middleware/ # логування, обробка запитів
-├── tasks/ # фонові задачі (Celery)
-├── utils/ # валідатори та допоміжні функції
-└── tests/ # unit + інтеграційні тести
-
-yaml
-Копіювати код
-
----
-
 ## ⚡ Real-Time & Асинхронність
 
 - WebSockets для чату та оновлення задач  
