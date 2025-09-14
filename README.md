@@ -24,7 +24,7 @@
 
 - **FastAPI** – основний бекенд  
 - **Pydantic + Validators** – моделі та валідація  
-- **SQLAlchemy** – ORM (MySQL / PostgreSQL / SQLite)  
+- **SQLAlchemy** – ORM (MySQL / SQLite)  
 - **Middleware** – логування та обробка запитів  
 - **Асинхронність** – async/await для I/O  
 - **Docker** – контейнеризація  
